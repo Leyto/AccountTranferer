@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.1"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="AccountTransfererTest\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="AccountTransfererTest\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="AccountTransfererTest\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="AccountTransfererTest\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="AccountTransfererTest\obj\AccountTransfererTest.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="AccountTransfererTest\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="AccountTransfererTest\obj\project.packagespec.json" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountTranferer", "AccountTranferer.csproj", "{40704518-32E2-42B6-99CC-F83367B00B14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{604DBF88-0A4A-48E3-BD94-822D3D0C86D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountTransfererTest", "AccountTransfererTest\AccountTransfererTest.csproj", "{42F865C1-16E5-4780-B8A3-FBBFE0F68CA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40704518-32E2-42B6-99CC-F83367B00B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40704518-32E2-42B6-99CC-F83367B00B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40704518-32E2-42B6-99CC-F83367B00B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40704518-32E2-42B6-99CC-F83367B00B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F865C1-16E5-4780-B8A3-FBBFE0F68CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F865C1-16E5-4780-B8A3-FBBFE0F68CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F865C1-16E5-4780-B8A3-FBBFE0F68CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F865C1-16E5-4780-B8A3-FBBFE0F68CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42F865C1-16E5-4780-B8A3-FBBFE0F68CA5} = {604DBF88-0A4A-48E3-BD94-822D3D0C86D3}
+	EndGlobalSection
+EndGlobal
