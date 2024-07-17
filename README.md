@@ -16,6 +16,7 @@ Just simple application for initation money transfer between different accounts.
       "toAccountId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
       "amount": 0
     }.
+   
    e. To check application state you can send GET-method `~/Health`. If all good you will recieve Success-message with text 'Healthy'.
-4. In solution you can find Folder AccountTransfererTest with unit-tests.
+5. In solution you can find Folder AccountTransfererTest with unit-tests.
     
